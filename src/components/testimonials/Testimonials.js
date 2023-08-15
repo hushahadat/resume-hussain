@@ -1,9 +1,8 @@
 import React from "react";
 import "./testimonials.css";
-import AVTR1 from "../../assets/avatar1.jpg";
-import AVTR2 from "../../assets/avatar2.jpg";
-import AVTR3 from "../../assets/avatar3.jpg";
-import AVTR4 from "../../assets/avatar4.jpg";
+import CER1 from "../../assets/cer1.jpg";
+import CER2 from "../../assets/cer2.jpg";
+import CER3 from "../../assets/cer3.jpg";
 
 import { Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -11,37 +10,30 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 const data = [
+  
   {
-    avatar: AVTR1,
-    name: "Tina Snow",
-    review:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quidem nobis omnis beatae incidunt  accusamus quasi, aut reiciendis eum dolore eaque optio nemo. Modi porro facere atque non.",
+    img: CER2,
+    name: "JavaScript Basic",
+    size:'100%'
   },
   {
-    avatar: AVTR2,
-    name: "Shata Wale",
-    review:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quidem nobis omnis beatae incidunt quibusdam laudantium accusamus quasi, aut reiciendis eum dolore eaque optio nemo.  non.",
-  },
+    img: CER1,
+    name: "The Fundamentals Of Digital Marketing",
+    size : '100%'
+   },
   {
-    avatar: AVTR3,
-    name: "Kwame Despite",
-    review:
-      "Lorem ipsum, consectetur adipisicing elit. Modi quidem nobis omnis beatae incidunt quibusdam laudantium accusamus quasi, aut reiciendis eum dolore eaque optio nemo. Modi porro facere atque non.",
+    img: CER3,
+    name: "Learning Platform Configuration of Product Web Page",
+    size:'100%'
   },
-  {
-    avatar: AVTR4,
-    name: "Nana Ama McBrown",
-    review:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quidem nobis omnis beatae incidunt quibusdam laudantium accusamus quasi, aut reiciendis eum dolore eaque optio nemo.",
-  },
+  
 ];
 
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h5>Review From Clients</h5>
-      <h2>Testimonials</h2>
+      {/* <h5>Review From Clients</h5> */}
+      <h2>Certificate</h2>
       <Swiper
         className="container testimonials__container"
         modules={[Pagination]}
@@ -49,13 +41,13 @@ const Testimonials = () => {
         slidesPerView={1}
         pagination={{ clickable: true }}
       >
-        {data.map(({ avatar, name, review }, index) => {
+        {data.map(({ img, name, review,size }, index) => {
           return (
             <SwiperSlide key={index} className="testimonial">
               <div className="client_avatar">
-                <img src={avatar} alt={name} />
+                <img src={img} alt={name}  style={{width: size}}/>
               </div>
-              <h5 className="client_name">{name}</h5>
+              <h5 style={{ paddingTop: "10px" }} className="client_name">{name}</h5>
               <small className="client_review">{review}</small>
             </SwiperSlide>
           );

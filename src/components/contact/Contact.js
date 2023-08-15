@@ -11,12 +11,12 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_rpzxjdh', 'template_uir2nif', form.current, 'ITb7FL6uKhUbnKYk-')
-      .then((result) => {
-        console.log(result.text);
-      }, (error) => {
-        console.log(error.text);
-      });
+    // emailjs.sendForm('service_rpzxjdh', 'template_uir2nif', form.current, 'ITb7FL6uKhUbnKYk-')
+    //   .then((result) => {
+    //     console.log(result.text);
+    //   }, (error) => {
+    //     console.log(error.text);
+    //   });
 
       e.target.reset();
     }
@@ -30,15 +30,15 @@ const Contact = () => {
             <article className="contact_option">
               <MdOutlineEmail className="contact_option-icon" />
               <h4>Email</h4>
-              <h5>shahadathussain757@outlook.com</h5>
-              <a href="mailto:shahadathussain757@outlook.com" target="_blank" rel="noreferrer">
+              <h6>shahadat@hussain.co.in</h6>
+              <a href="mailto:shahadathussain757@gmail.com" target="_blank" rel="noreferrer">
                 Send a message
               </a>
             </article>
             <article className="contact_option">
               <RiMessengerLine className="contact_option-icon" />
               <h4>Messenger</h4>
-              <h5>Shahadat Hussain</h5>
+              <h6>Shahadat Hussain</h6>
               <a href="https://m.me/hushahadat" target="_blank" rel="noreferrer">
                 Send a message
               </a>
@@ -46,7 +46,7 @@ const Contact = () => {
             <article className="contact_option">
               <RiWhatsappLine className="contact_option-icon" />
               <h4>WhatsApp</h4>
-              <h5>+91 8709860231</h5>
+              <h6>+91 8709860231</h6>
               <a href="https://api.whatsapp.com" target="_blank" rel="noreferrer">
                 Send a message
               </a>

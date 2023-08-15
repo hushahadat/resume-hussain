@@ -19,7 +19,7 @@ const Footer = () => {
           <a href="#experience">Experience</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a href="#services">Basic Details</a>
         </li>
         <li>
           <a href="#portfolio">Portfolio</a>
@@ -32,18 +32,18 @@ const Footer = () => {
         </li>
       </ul>
       <div className="footer_socials">
-        <a href="https://facebook.com" target="blank">
+        <a href="https://www.facebook.com/shahadat.hussain.5602" target="blank">
           <FaFacebook />
         </a>
-        <a href="https://instagram.com" target="blank">
+        <a href="https://www.instagram.com/i_am_shahadathussain/" target="blank">
           <FaInstagram />
         </a>
-        <a href="https://twitter.com" target="blank">
+        <a href="https://twitter.com/Shahadat757" target="blank">
           <FaTwitter />
         </a>
       </div>
       <div className="footer_copyright">
-        <small>&copy; Egator Tutorials. All rights reserved.</small>
+        <small>&copy; Shahadat. All rights reserved.</small>
       </div>
     </footer>
   );

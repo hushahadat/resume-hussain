@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 35% 50%;
     gap: 15%;
+    padding-top: 2rem !important;
 }
 
 .about_me {
@@ -18,6 +19,7 @@
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
+    height: 100%;
 }
 
 .about_me-image:hover {
