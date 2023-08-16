@@ -11,12 +11,13 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // emailjs.sendForm('service_rpzxjdh', 'template_uir2nif', form.current, 'ITb7FL6uKhUbnKYk-')
-    //   .then((result) => {
-    //     console.log(result.text);
-    //   }, (error) => {
-    //     console.log(error.text);
-    //   });
+    emailjs.sendForm('service_suw3gxn', 'template_90h0cuh', form.current, 'HSGj-TYUByssyGv2Z')
+      .then((result) => {
+        console.log(result.text);
+        alert('Message Sent')
+      }, (error) => {
+        console.log(error.text);
+      });
 
       e.target.reset();
     }
@@ -39,7 +40,7 @@ const Contact = () => {
               <RiMessengerLine className="contact_option-icon" />
               <h4>Messenger</h4>
               <h6>Shahadat Hussain</h6>
-              <a href="https://m.me/hushahadat" target="_blank" rel="noreferrer">
+              <a href="https://m.me/shahadat.hussain.5602" target="_blank" rel="noreferrer">
                 Send a message
               </a>
             </article>
@@ -47,7 +48,7 @@ const Contact = () => {
               <RiWhatsappLine className="contact_option-icon" />
               <h4>WhatsApp</h4>
               <h6>+91 8709860231</h6>
-              <a href="https://api.whatsapp.com" target="_blank" rel="noreferrer">
+              <a href="https://api.whatsapp.com/send?phone=918709860231" target="_blank" rel="noreferrer">
                 Send a message
               </a>
             </article>
