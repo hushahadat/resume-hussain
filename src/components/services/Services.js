@@ -9,7 +9,7 @@ const Services = () => {
   return (
     <section id="services">
       {/* <h5>What I Offer</h5> */}
-      <h2>Basic Details</h2>
+      
 
       <div className="container services_container">
         <div className="img" >
@@ -20,6 +20,7 @@ const Services = () => {
        
 
         <div className="data-container">
+        <h2 style={{marginBottom:"2rem", color:"rgba(255, 255, 255, 0.6)"}}>Basic Details</h2>
           <Tabs
             defaultActiveKey="home"
             id="uncontrolled-tab-example"
