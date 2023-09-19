@@ -23,7 +23,7 @@ const About = () => {
             <article className="about_card">
               <FaAward className="about_icon" />
               <h5>Experience</h5>
-              <small>1 + Years Working</small>
+              <small>1.5 + Years Working</small>
             </article>
 
             <article className="about_card">
@@ -40,7 +40,7 @@ const About = () => {
           </div>
 
           <p>
-            Highly motivated and skilled professional with 1+ Year of experience
+            Highly motivated and skilled professional with 1.5+ Year of experience
             in Web App Development. Proven track record of success in MERN Stack.
             Seeking to leverage my skills and experience to contribute to a
             dynamic team and achieve company goals .
