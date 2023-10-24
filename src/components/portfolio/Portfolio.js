@@ -8,7 +8,7 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "E-Commerce Porfolio for Dr.Jyotirmay Hegde",
+    title: "E-Commerce Portfolio for Dr.Jyotirmay Hegde",
     github: "https://github.com/hushahadat/client-Ecommerce",
     demo: "https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization",
   },
