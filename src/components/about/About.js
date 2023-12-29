@@ -40,10 +40,17 @@ const About = () => {
           </div>
 
           <p>
-            Highly motivated and skilled professional with 1.5+ Year of experience
+            {/* Highly motivated and skilled professional with 1.5+ Year of experience
             in Web App Development. Proven track record of success in MERN Stack.
             Seeking to leverage my skills and experience to contribute to a
-            dynamic team and achieve company goals .
+            dynamic team and achieve company goals . */}
+            A Computer Science graduate with a Bachelor’s degree and 1.5 years
+            of hands-on experience in Web Development, I bring a proven record
+            of success in MERN Stack development. My commitment to excellence
+            and dedication to continuous learning have been driving forces
+            behind my achievements. I am eager to contribute my education and
+            skills to an organization where innovation and growth are
+            encouraged.
           </p>
 
           <a href="#contact" className="btn btn-primary">
