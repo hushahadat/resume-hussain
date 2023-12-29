@@ -10,21 +10,21 @@ const data = [
     image: IMG1,
     title: "E-Commerce Portfolio for Dr.Jyotirmay Hegde",
     github: "https://github.com/hushahadat/client-Ecommerce",
-    demo: "https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization",
+    demo: "https://jyotirmayhegde.com/",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Contact Management System",
-    github: "https://github.com/hushahadat/contact_management",
-    demo: "https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-templates-infographics-in-Figma",
+    title: "CryptoPulse to track  information and data",
+    github: "https://github.com/hushahadat/coin-market",
+    demo: "https://crypto-coin-002v.onrender.com/",
   },
   {
     id: 3,
     image: IMG3,
     title: "Dashboard UI for user details web apps",
     github: "https://github.com/hushahadat/To-Do",
-    demo: "https://dribbble.com/shots/17290917-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps",
+    
   }
   
 ];
@@ -49,14 +49,14 @@ const Portfolio = () => {
                 <a href={github} className="btn">
                   Github
                 </a>
-                {/* <a
+                 { demo && <a
                   href={demo}
                   className="btn btn-primary"
                   target="_blank"
                   rel="noreferrer"
                 >
                   Live Demo
-                </a> */}
+                </a>}
               </div>
             </article>
           );
